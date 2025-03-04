@@ -22,7 +22,7 @@ var summaries = new[]
 app.MapGet("/", () => 
 {
     return "its working";
-})
+});
 
 app.MapGet("/weatherforecast", () =>
 {
